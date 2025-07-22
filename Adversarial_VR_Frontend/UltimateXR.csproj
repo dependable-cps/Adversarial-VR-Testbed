@@ -1,0 +1,1295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>UltimateXR</RootNamespace>
+    <ProjectGuid>{93823f85-092d-8ed8-3e7f-779451f35b6f}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>UltimateXR</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\UltimateXR\</OutputPath>
+    <DefineConstants>UNITY_6000_0_33;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;ULTIMATEXR_USE_STEAMVR_SDK;ULTIMATEXR_USE_WINDOWSMIXEDREALITY_SDK;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;ULTIMATEXR_UNITY_XR_MANAGEMENT;ULTIMATEXR_USE_UNITYINPUTSYSTEM_SDK;ULTIMATEXR_UNITY_URP;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\UltimateXR\Scripts\Rendering\FX\UxrPlanarReflectionUrp.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrButtonEventType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrTranslationConstraintMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\IK\UxrArmSolveOptions.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Pico\UxrPicoNeo3Input.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\HTC\UxrHtcViveCosmosTracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrDamageType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\StateSync\IUxrStateSync.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Avatars\UxrFaceGestures.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\ParticleSystems\UxrToggleEmitParticles.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarFingerBoneInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UxrLaserPointer.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrAvatarSyncEventType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrAvatarMoveEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\IK\UxrBodyIK.IndependentBoneInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\Helpers\HiScores\UxrHiScoresPanelEntries.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Valve\UxrValveIndexInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Oculus\UxrOculusTouchRiftSQuestInputSteamVR.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\UxrIgnoreCanvas.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrAvatar.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrRotationType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Guides\UxrCompass.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrFirearmMag.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\UxrPointerInputModule.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Transforms\UxrLookAt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Haptics\Helpers\UxrFixedHapticFeedback.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Audio\AudioSourceExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Interpolation\UxrInterpolator.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrHandIntegration.GizmoHandSize.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Oculus\UxrOculusTouchRiftSQuestTracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Components\Singleton\UxrAsyncInitAbstractSingleton.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarRig.ReferenceSolving.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Visualization\UxrControllerHand.ObjectVariation.MaterialVariation.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Meta\UxrMetaTouchQuest2Input.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Components\Singleton\UxrAsyncInitSingleton.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Controllers\UxrStandardAvatarController.ControllerEventTypes.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Splines\UxrCatmullRomSpline.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\UI\GraphicExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrFirearmAmmoLabel.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\Utils\UxrButton3DRotate.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrRotationConstraintMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\HandPoses\UxrHandDescriptor.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\GameObjects\UxrObjectFade.ObjectEntry.MaterialEntry.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrProjectileDeflect.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\UxrUnityXRControllerInput.ButtonContact.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrPlacementType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\SteamVR\UxrSteamVRControllerTracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrShotCycle.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\SteamVR\UxrSteamVRControllerInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrWeaponManager.ProjectileInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Exceptions\UwrException.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrPostUpdateMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarRigInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Math\Vector3Ext.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabManager.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrConstants.Paths.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrHandIntegration.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabbableObjectSnapTransform.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\UI\UxrImageFillTween.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\IUxrControllerTracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\Helpers\Keyboard\UxrKeyType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrFirearmTrigger.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrAvatarSyncEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Meta\UxrMetaTouchQuest2InputSteamVR.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrAvatar.HandState.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\HandPoses\UxrFingerDescriptor.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabbableObject.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\UI\UxrColorTween.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Math\UxrMathUtils.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrParentAvatarDestination.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\UxrPointerEventData.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\IO\FileExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrRotationProvider.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrInputButtonEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarLeg.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\UxrLaserPointerRaycaster.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrRuntimeGripInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Oculus\UxrOculusTouchRiftSQuestInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Oculus\UxrOculusTouchRiftTrackingSteamVR.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\UxrUnityXRControllerTracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\Collections\CollectionExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Transforms\UxrLookAtMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrHandSnapDirection.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarRig.HandRuntimeTransformation.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Threading\TaskControllers\UxrCancellableController.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrWristTorsionInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrInputButtons.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Transforms\UxrPositionInFrontOfCamera.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\DebugPanels\UxrDebugInput2dUI.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\IUxrLogger.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrControllerElements.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Haptics\Helpers\UxrHapticOnImpact.HitPointInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\UxrGamepadInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Visualization\UxrMapControllerToHand.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrRuntimeFingerDescriptor.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Audio\AudioClipExt.StreamedAudioClip.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\UxrNonDrawingGraphic.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\Utils\UxrButton3DPress.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Controllers\UxrAvatarController.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\StateSync\UxrStateSyncEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\Utils\UxrHoverTimerClick.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Transforms\UxrAnimatedTransform.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Keyboard\UxrKey.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrSnapToHandMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrAvatarHandPoseChangeEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\IUxrGrabbable.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\IK\UxrCcdConstraintType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\IK\UxrCcdLink.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Materials\UxrAnimatedMaterial.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrUtils.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\UI\UxrCanvasAlphaTween.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Pico\UxrPicoNeo3Tracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Interpolation\UxrLoopMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrUpdateStage.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\ComponentExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrLocomotion.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\IO\AsyncOperationExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\IK\UxrArmIKSolver.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\Utils\UxrDynamicPixelsPerUnit.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrLogLevel.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\Controls\UxrToggleControlInput.TextColorChange.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\UxrCanvas.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Controllers\IUxrAvatarControllerUpdater.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Keyboard\UxrKeyboardInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Oculus\UxrOculusTouchRiftTracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Controllers\UxrHandPoseVolume.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrConstants.Shaders.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Haptics\Helpers\UxrManipulationHapticFeedback.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrProjectileSource.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrDeviceConnectEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\Math\FloatExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\IUxrLocomotionUpdater.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\UxrInteractionType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrAvatarRenderModes.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\UI\UxrTween.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\IO\ResourcesExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrPreviewGrabPoses.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrTeleportLocomotion.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrDeflectEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrConstants.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrConstants.Hand.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Math\Vector3IntExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrWeapon.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGripPoseInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Render\Color32Ext.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Visualization\UxrController3DModel.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Components\UxrComponent_2.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\HandPoses\UxrFingerNodeDescriptor.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Guides\UxrCompassDisplayMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Components\Composite\UxrAvatarComponent.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrExplodeHierarchy.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\Threading\ActionExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\Collections\ListExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Oculus\UxrOculusTouchRiftSQuestTrackingSteamVR.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabPointInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Render\ImageExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Meta\UxrMetaHandTracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Components\Singleton\UxrSingleton.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrInput2D.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrControllerHapticEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\Controls\UxrControlInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\UxrFingerTipRaycaster.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Audio\UxrAudioSample.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrInput2DEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrWeaponManager.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Render\MeshExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrIgnoreTeleportDestination.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrInput1D.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabber.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrApplyConstraintsEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Visualization\UxrControllerHand.FingerInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrControllerInput.ButtonFlags.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Threading\TaskControllers\UxrTaskController.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\Helpers\HiScores\UxrHiScoresEntry.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\UI\UxrScaleTween.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Materials\UxrAnimatedTextureFlipbook.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabbableModifierFlags.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\DebugPanels\UxrDebugInput1dUI.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\HP\UxrHpReverbG2Tracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrTeleportSpawnCollider.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\UxrAnimatedComponent.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\UI\UxrRotationTween.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Microsoft\UxrWindowsMixedRealityInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\MonoBehaviourExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\UI\UxrGraphicTween.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\SteamVR\UxrSteamVRConstants.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\IK\UxrBodyIKSettings.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Haptics\Helpers\UxrHapticImpactReceiver.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\CameraUtils\UxrCameraWallFade.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Math\Vector4Ext.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabPointShape.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrSnapReference.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\GameObjects\UxrDelayedDestroy.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\Controls\UxrToggleControlInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UxrControlFeedback.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Components\Singleton\UxrAbstractSingleton.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\UxrUnityXRControllerInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrImpactDecal.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Oculus\UxrOculusTouchRiftInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrConstants.UI.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Audio\AudioClipExt.PcmData.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Math\UxrUniversalLocalAxes.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Haptics\UxrHapticMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\Math\IntExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\Helpers\Keyboard\UxrToggleSymbolsPage.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\Utils\UxrButton3D.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Audio\UxrAudioSourceStartPos.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarFingerInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\Helpers\Keyboard\UxrKeyboardUI.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\IK\UxrCcdIKSolver.IterationResult.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrControllerTracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Transforms\UxrTransformRotationSpace.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Math\UxrAxis.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\Helpers\UxrDependentGrabbable.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarFinger.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\HTC\UxrHtcViveFocus3Tracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Visualization\UxrElement.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Materials\UxrFlipbookAnimationMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\IUxrControllerInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Haptics\Helpers\UxrHapticOnImpact.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Haptics\UxrHapticEventType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarRigType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\TransformExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Interpolation\UxrEasing.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\ObjectExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Components\UxrComponent.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrManipulationSyncEventType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\Collections\EnumerableExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Attributes\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Render\MeshExt.ExtractSubMeshOperation.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Valve\UxrValveIndexTracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrActor.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Components\Composite\UxrGrabbableObjectComponent.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Materials\UxrMaterialMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\IK\UxrWristTorsionIKSolver.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Splines\UxrSpline.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\IK\UxrCcdIKSolver.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrWeaponManager.DamageActorInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\IUxrTrackingDevice.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\Helpers\Keyboard\UxrKeyLayoutType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrSnapToAnchorMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Render\RendererExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\HP\UxrHpReverbG2Input.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Materials\UxrMaterialRenderQueue.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrInput1DEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\GameObjectExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\GameObjects\UxrToggleObjectsUsingButtons.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Controllers\UxrAnimationType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrGrenadeActivationMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\Helpers\UxrAlignOnRelease.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\HTC\UxrHtcViveTracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Audio\UxrAudioManipulation.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Render\ShaderExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\EnumExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Lights\UxrAnimatedLightIntensity.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Transforms\UxrLookAtLocalAvatar.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Components\UxrComponent_1.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrAvatarStartedEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Rendering\LOD\UxrLODGroup.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabPointIndex.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Controllers\UxrAvatarControllerEvent.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrRuntimeHandPose.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Math\Vector2IntExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Visualization\UxrControllerHand.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Controllers\UxrStandardAvatarController.EventProcessing.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrHandSide.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Threading\UxrMonoDispatcher.WorkDoubleBuffer.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Oculus\UxrOculusTouchRiftInputSteamVR.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\SceneManagerExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrMuzzleFlash.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\ObjectExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Threading\TaskControllers\UxrLoopController.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrReorientationType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Visualization\UxrFingerContactInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Math\Vector2Ext.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\UxrAnimationMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\DebugPanels\UxrDebugControllerPanel.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Exceptions\HttpUwrException.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\StringExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Transforms\UxrTransformTranslationSpace.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\CameraUtils\UxrCameraDepthEnable.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrTranslationType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarHand.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\CyborgAvatar\RotateShoulder.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Render\SpriteExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarArmInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\Threading\TaskExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrTrackingDevice.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Audio\UxrAudioBoxVolume.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Meta\UxrMetaTouchQuest2Tracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Math\Matrix4x4Ext.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\CameraUtils\UxrIgnoreWallFade.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarArm.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\HTC\UxrHtcViveInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\CyborgAvatar\WristConnectionRays.RayProperties.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\IO\UnityWebRequestExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrShotgunPump.State.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrSmoothLocomotion.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Splines\UxrSpline.Sample.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Render\Texture2DExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrShotgunPump.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Exceptions\NetUwrException.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Math\QuaternionExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\GameObjects\UxrObjectFade.ObjectEntry.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\CameraUtils\UxrCameraFade.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrNonDamagingImpactEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrAvatarUpdateEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrTeleportTarget.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrTeleportLocomotionBase.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\IK\UxrBodyIK.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\GameObjects\UxrToggleObject.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabManager.HandTransitionInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrFingerType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabber.PhysicsSample.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\UI\UxrPositionTween.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\UI\UxrTextContentTween.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarHead.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\Helpers\UxrReturnGrabbableObject.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Caching\IUxrPrecacheable.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\UI\ButtonExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrHandTracking.BoneCalibration.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UxrLaserPointerTargetTypes.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\Helpers\Keyboard\UxrKeyboardKeyUI.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\CyborgAvatar\WristConnectionRays.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\TypeExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Guides\UxrCompassTargetHint.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrAvatarMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Visualization\UxrControllerHand.ObjectVariation.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabProximityMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabbableObjectAnchor.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrManipulationSyncEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrRaycastStepsQuality.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UxrCameraPointer.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Materials\UxrMaterialParameterType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\GameObjects\UxrObjectBlink.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\Helpers\Keyboard\UxrKeyboardKeyEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabManager.RuntimeGrabInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrTeleportTargetMaterialID.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\CameraUtils\UxrWallFadeMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrControllerInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Haptics\Helpers\UxrHapticImpactEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Materials\UxrFlipbookFinishedAction.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\GameObjects\UxrObjectFade.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrControllerSetupType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrFirearmWeapon.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Haptics\UxrHapticClipType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\IUxrTrackingUpdater.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarRig.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\HandPoses\UxrHandPoseAsset.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Render\ColorExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Controllers\UxrStandardAvatarController.HandInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\IUxrDevice.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UxrFingerTip.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Controllers\UxrFingerPointingVolume.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\IUxrGrabbableModifier.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\IUxrControllerInputUpdater.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Render\LODGroupExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrManager.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\UI\UxrTweenFinishedActions.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Visualization\UxrElementType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrAvatarRig.HandTransformation.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrDamageEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Locomotion\UxrWalkDirection.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\UxrAvatarEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrConstants.Geometry.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Rendering\FX\UxrPlanarReflectionBrp.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\HTC\UxrHtcViveCosmosInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\IK\UxrArmOverExtendMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrHandTracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrManipulationEventArgs.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\DebugPanels\UxrDebugInputButtonUI.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\UxrTransform.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Interpolation\UxrInterpolationSettings.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\HTC\UxrHtcViveFocus3Input.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Meta\UxrMetaHandTracking.FlipMode.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\Components\UxrToggleComponent.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Animation\IK\UxrIKSolver.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Microsoft\UxrWindowsMixedRealityTracking.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\System\Collections\DictionaryExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrOverrideImpactDecal.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Core\Threading\UxrMonoDispatcher.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\Helpers\HiScores\UxrHiScoresPanelEnterName.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Audio\AudioClipExt.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabbableObjectPreviewMesh.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\UxrDummyControllerInput.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Controllers\UxrEventVarAction.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\HandPoses\UxrBlendPoseType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\UI\UnityInputModule\Utils\UxrControlInputDestroyOnPress.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Haptics\UxrHapticClip.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrShotDescriptor.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\Integrations\Meta\UxrMetaTouchQuest2TrackingSteamVR.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Rig\UxrRuntimeHandDescriptor.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Extensions\Unity\Audio\AudioClipExt.PcmHeader.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabManager.GrabbableObjectAnchorInfo.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Rendering\FX\UxrMagnifyingGlassUrp.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Devices\UxrControllerInputCapabilities.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Mechanics\Weapons\UxrGrenadeWeapon.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\UxrGrabPointShapeAxisAngle.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Manipulation\HandPoses\UxrHandPoseType.cs" />
+    <Compile Include="Assets\UltimateXR\Scripts\Avatar\Controllers\UxrStandardAvatarController.cs" />
+    <None Include="Assets\UltimateXR\Shaders\FX\PlanarReflection_URP.shader" />
+    <None Include="Assets\UltimateXR\Shaders\BasicUnlit\UnlitTransparentTwoSidedNoDepth.shader" />
+    <None Include="Assets\UltimateXR\Prefabs\Devices\Readme.txt" />
+    <None Include="Assets\UltimateXR\Shaders\FX\ElectricRay.shader" />
+    <None Include="Assets\UltimateXR\UltimateXR.asmdef" />
+    <None Include="Assets\UltimateXR\Shaders\BasicUnlit\UnlitAdditiveTwoSided.shader" />
+    <None Include="Assets\UltimateXR\Resources\Shaders\UnlitTransparent.shader" />
+    <None Include="Assets\UltimateXR\Changelog.txt" />
+    <None Include="Assets\UltimateXR\Shaders\UI\UIAdditive.shader" />
+    <None Include="Assets\UltimateXR\Shaders\FX\LaserDot.shader" />
+    <None Include="Assets\UltimateXR\Shaders\FX\Scroll.shader" />
+    <None Include="Assets\UltimateXR\Shaders\FX\Crosshair.shader" />
+    <None Include="Assets\UltimateXR\Resources\Shaders\OverlayFade.shader" />
+    <None Include="Assets\UltimateXR\Shaders\Video\VideoRGBTopAlphaBottomAdditive.shader" />
+    <None Include="Assets\UltimateXR\Shaders\Video\VideoRGBTopAlphaBottomAlphaBlend.shader" />
+    <None Include="Assets\UltimateXR\Shaders\UI\UIOverlayAlphaBlend.shader" />
+    <None Include="Assets\UltimateXR\Resources\Shaders\Unlit.shader" />
+    <None Include="Assets\UltimateXR\Resources\Shaders\UnlitAdditive.shader" />
+    <None Include="Assets\UltimateXR\Resources\Shaders\!Readme.txt" />
+    <None Include="Assets\UltimateXR\Shaders\FX\PlanarReflection_BRP.shader" />
+    <None Include="Assets\UltimateXR\Art\Devices\Readme.txt" />
+    <None Include="Assets\UltimateXR\Shaders\FX\MagnifyingGlass_URP.shader" />
+    <None Include="Assets\UltimateXR\Shaders\Hands\TransparentHand.shader" />
+    <None Include="Assets\UltimateXR\Shaders\UI\UIOverlayAdditive.shader" />
+    <None Include="Assets\UltimateXR\Resources\Shaders\UnlitTransparentNoDepthTest.shader" />
+    <None Include="Assets\UltimateXR\Shaders\BasicUnlit\UnlitTransparentTwoSided.shader" />
+    <None Include="Assets\UltimateXR\Resources\Shaders\UnlitColor.shader" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.HierarchyCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputForUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.MarshallingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.MultiplayerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.AdaptivePerformanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.AdaptivePerformanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.BuildProfileModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.BuildProfileModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreBusinessMetricsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreBusinessMetricsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EmbreeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.EmbreeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphicsStateCollectionSerializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GridAndSnapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.GridAndSnapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.MultiplayerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.MultiplayerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PropertiesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.PropertiesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SafeModeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.SafeModeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderFoundryModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderFoundryModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SketchUpModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.SketchUpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.TreeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIAutomationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.collections\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.testtools.codecoverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Logging">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.UnityShim">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Api.45">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll</HintPath>
+    </Reference>
+    <Reference Include="GitHub.Unity.45">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="sfw.net">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Assets\Plugins\GitHub\Editor\sfw.net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ML.OnnxRuntime">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Assets\Packages\Microsoft.ML.OnnxRuntime.Managed.1.16.3\lib\netstandard2.0\Microsoft.ML.OnnxRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.nuget.newtonsoft-json\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenVR">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\ScriptAssemblies\Unity.XR.OpenVR.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:\istiak\Git\VR_Security_Maze\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

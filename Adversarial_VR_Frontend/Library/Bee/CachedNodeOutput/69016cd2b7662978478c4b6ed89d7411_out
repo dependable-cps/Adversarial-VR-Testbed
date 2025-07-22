@@ -1,0 +1,2 @@
+TobiiXRSDK_3.0.1.179\Runtime\API\Internal\Editor\EditorUtils.cs(79,17): warning CS0618: 'PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup, string)' is obsolete: 'Use SetScriptingDefineSymbols(NamedBuildTarget buildTarget, string defines) instead'
+TobiiXRSDK_3.0.1.179\Runtime\API\Internal\Editor\EditorUtils.cs(84,24): warning CS0618: 'PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup)' is obsolete: 'Use GetScriptingDefineSymbols(NamedBuildTarget buildTarget) instead'

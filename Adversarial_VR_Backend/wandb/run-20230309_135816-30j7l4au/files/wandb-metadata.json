@@ -1,0 +1,23 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-03-09T19:58:17.041607",
+    "startedAt": "2023-03-09T19:58:16.278015",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [
+        "--gin",
+        "parsing/t5/gin_configs/t5-small.gin",
+        "--dataset",
+        "cybersickness"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\oyeqhh\\Downloads\\TalkTomodel-main\\parsing\\t5\\start_fine_tuning.py",
+    "codePath": "parsing\\t5\\start_fine_tuning.py",
+    "host": "CENGR-HF67RT3",
+    "username": "oyeqhh",
+    "executable": "C:\\Users\\oyeqhh\\.conda\\envs\\ttm\\python.exe"
+}

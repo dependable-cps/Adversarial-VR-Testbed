@@ -1,0 +1,1 @@
+TobiiXRSDK_3.0.1.179\Runtime\Core\Helpers\XRDisplaySubSystemHelper.cs(20,9): warning CS0618: 'SubsystemManager.GetInstances<T>(List<T>)' is obsolete: 'Use GetSubsystems instead. (UnityUpgradable) -> GetSubsystems<T>(*)'
