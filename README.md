@@ -1,6 +1,7 @@
 
-<iframe src="AdversarialVR_Testbed_Diagram.pdf" width="100%" height="600px"></iframe>
-
+<p align="center">
+  <img src="AdversarialVR_Testbed_Diagram.png" alt="Adversarial-VR Testbed Diagram" width="500">
+</p>
 
 # Adversarial-VR Testbed
 
@@ -164,7 +165,8 @@ If you use Adversarial-VR in your research, please cite:
 
 ## Contacts
 
-Maintained by [Istiak Ahmed](mailto:ia5qq@umsystem.edu), [Ripan Kumar Kundu](mailto:rkcgc@umsystem.edu), and [Khaza Anuarul Hoque](mailto:hoquek@missouri.edu).
+<!-- Maintained by [Istiak Ahmed](mailto:ia5qq@umsystem.edu), [Ripan Kumar Kundu](mailto:rkcgc@umsystem.edu), and [Khaza Anuarul Hoque](mailto:hoquek@missouri.edu). -->
+Maintained by [Khaza Anuarul Hoque](mailto:hoquek@missouri.edu).
 
 ---
 
