@@ -5,7 +5,7 @@
   <img src="AdversarialVR_Testbed_Diagram.png" alt="Adversarial-VR Testbed Diagram" width="1000">
 </p>
 
-**Adversarial-VR** is a modular framework that enables researchers to simulate, detect, and mitigate VR-induced cybersickness under adversarial conditions. It integrates:
+**Adversarial-VR** is a real-time VR testbed for evaluating deep learning (DL)-based cybersickness detection and mitigation strategies under adversarial conditions. It integrates:
 - A **Python Flask backend** for deep learning-based cybersickness detection and adversarial attack generation  
 - A **Unity-based VR maze frontend** for real-time simulation, sensor data collection, and adaptive mitigation
 
