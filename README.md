@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="AdversarialVR_Testbed_Diagram.png" alt="Adversarial-VR Testbed Diagram" width="500">
+  <img src="AdversarialVR_Testbed_Diagram.png" alt="Adversarial-VR Testbed Diagram" width="1000">
 </p>
 
 # Adversarial-VR Testbed
