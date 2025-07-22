@@ -69,7 +69,7 @@ pip install -r requirements.txt   # includes Flask, TensorFlow, CleverHans, h5py
 # model/LSTM_Maze.keras
 
 # 4. Run Flask API
-python app.py
+python AdversarialAttack.py
 ````
 
 API runs by default at `http://localhost:8000/predict`
@@ -90,7 +90,7 @@ Returns: predicted class, confidence, adversarial class/confidence (if enabled).
 
 ### Switching Attack Mode
 
-* Edit `app.py` and comment/uncomment the adversarial attack line you want (MI-FGSM, PGD, C\&W).
+* Edit `AdversarialAttack.py` and comment/uncomment the adversarial attack line you want (MI-FGSM, PGD, C\&W).
 * Restart the Flask server for change to take effect.
 
 ---
@@ -142,7 +142,7 @@ Returns: predicted class, confidence, adversarial class/confidence (if enabled).
 
 ## Tool Usage
 
-1. **Start Flask API** (`python app.py`).
+1. **Start Flask API** (`python AdversarialAttack.py`).
 2. **Play in Unity**: The system streams real-time sensor data to backend, applies mitigation automatically.
 3. **Enable Attacks:** Change adversarial mode in backend as needed, observe Unity response.
 
