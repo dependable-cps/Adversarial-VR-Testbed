@@ -9,13 +9,11 @@ Adversarial-VR is an open-source testbed for evaluating the adversarial robustne
 
 * [Introduction](#introduction)
 * [System Overview](#system-overview)
-<!-- * [Videos](#videos) -->
 * [Experimental Data & Models](#experimental-data--models)
 * [Backend: Flask API](#backend-flask-api)
 * [Frontend: Unity VR](#frontend-unity-vr)
 * [Builds & Setup](#builds--setup)
 * [Tool Usage](#tool-usage)
-<!-- * [Citation](#citation) -->
 * [Contacts](#contacts)
 * [License](#license)
 * [Acknowledgements](#acknowledgements)
@@ -111,10 +109,10 @@ Returns: predicted class, confidence, adversarial class/confidence (if enabled).
 * **SRanipal SDK** and **Tobii Vive SDK** imported to project
 * **Unity XR plugin** and (if needed) SteamVR/OpenVR
 
-### Android Build (if adapting for mobile):
+<!-- ### Android Build (if adapting for mobile):
 
 * Install Android Build Support in Unity
-* Adapt VR/XR input and eye-tracking code to your platform (Quest SDK, etc.)
+* Adapt VR/XR input and eye-tracking code to your platform (Quest SDK, etc.) -->
 
 ### Integration Steps
 
