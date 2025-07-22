@@ -1,7 +1,6 @@
 
-<p align="center"> 
-  <img src="AdversarialVR_Testbed_Diagram.pdf" alt="main" width="500">
-</p>
+<iframe src="AdversarialVR_Testbed_Diagram.pdf" width="100%" height="600px"></iframe>
+
 
 # Adversarial-VR Testbed
 
@@ -15,7 +14,7 @@ Adversarial-VR is an open-source testbed for evaluating the adversarial robustne
 * [Frontend: Unity VR](#frontend-unity-vr)
 * [Builds & Setup](#builds--setup)
 * [Tool Usage](#tool-usage)
-* [Citation](#citation)
+<!-- * [Citation](#citation) -->
 * [Contacts](#contacts)
 * [License](#license)
 * [Acknowledgements](#acknowledgements)
@@ -36,18 +35,10 @@ Adversarial-VR enables real-time evaluation of VR cybersickness detection, mitig
 - **Hardware:** HTC Vive Pro Eye (recommended for full feature support).
 - **Dataset:** Trained using MazeSick (open-source, see below).
 
-<!-- ---
-
-## Videos
-
-[Project Overview Video (IEEE VR 2025)](https://youtu.be/G05Hp5W-44s)  
-Demo clips and usage scenarios are available at: [Demo Videos Link](#) <!-- Replace with your own video/demo link -->
-
---- -->
 
 ## Experimental Data & Models
 
-- **Model Training Data:** MazeSick Dataset ([Setu et al., ISMAR 2024](https://arxiv.org/abs/2403.09996)).  
+- **Model Training Data:** MazeSick Dataset (https://ieeexplore.ieee.org/abstract/document/10985746).  
   Request access or see the publication for download instructions.
 - **Pre-trained Model:** Provided as `.keras` file (no training required).
 - **Feature List:** See code and paper; ensure you maintain order and normalization.
@@ -156,7 +147,7 @@ Returns: predicted class, confidence, adversarial class/confidence (if enabled).
 
 ---
 
-## Citation
+<!-- ## Citation
 
 If you use Adversarial-VR in your research, please cite:
 
@@ -169,11 +160,11 @@ If you use Adversarial-VR in your research, please cite:
 }
 ```
 
----
+--- -->
 
 ## Contacts
 
-Maintained by [Istiak Ahmed](mailto:ia5qq@umsystem.edu), \[Ripan Kumar Kundu](mailto:rkcgc@umsystem.edu), \[Khaza Anuarul Hoque](mailto:hoquek@missouri.edu).
+Maintained by [Istiak Ahmed](mailto:ia5qq@umsystem.edu), [Ripan Kumar Kundu](mailto:rkcgc@umsystem.edu), and [Khaza Anuarul Hoque](mailto:hoquek@missouri.edu).
 
 ---
 
@@ -185,7 +176,7 @@ MIT License
 
 ## Acknowledgements
 
-* MazeSick Dataset ([Setu et al., ISMAR 2024](https://arxiv.org/abs/2403.09996))
+* MazeSick Dataset (https://ieeexplore.ieee.org/abstract/document/10985746)
 * CleverHans adversarial attack library
 * Unity Tunneling Vignette (based on Fernandes & Feiner, 2016)
 * HTC SRanipal, Tobii, and Unity XR SDKs
