@@ -1,12 +1,15 @@
 
+# Adversarial VR: An Open-Source Testbed for Evaluating Adversarial Robustness of VR Cybersickness Detection and Mitigation
+
 <p align="center">
   <img src="AdversarialVR_Testbed_Diagram.png" alt="Adversarial-VR Testbed Diagram" width="1000">
 </p>
 
-# Adversarial-VR Testbed
+**Adversarial-VR** is a modular framework that enables researchers to simulate, detect, and mitigate VR-induced cybersickness under adversarial conditions. It integrates:
+- A **Python Flask backend** for deep learning-based cybersickness detection and adversarial attack generation  
+- A **Unity-based VR maze frontend** for real-time simulation, sensor data collection, and adaptive mitigation
 
-Adversarial-VR is an open-source testbed for evaluating the adversarial robustness of VR cybersickness detection and mitigation. It integrates a Python Flask backend (DL model + adversarial attacks) and a Unity VR maze frontend (real-time VR simulation & mitigation).
-
+## Table of Contents
 * [Introduction](#introduction)
 * [System Overview](#system-overview)
 * [Experimental Data & Models](#experimental-data--models)
@@ -37,7 +40,7 @@ Adversarial-VR enables real-time evaluation of VR cybersickness detection, mitig
 
 ## Experimental Data & Models
 
-- **Model Training Data:** MazeSick Dataset (https://ieeexplore.ieee.org/abstract/document/10985746).  
+- **Model Training Data:** [MazeSick Dataset](https://ieeexplore.ieee.org/abstract/document/10985746).  
   Request access or see the publication for download instructions.
 - **Pre-trained Model:** Provided as `.keras` file (no training required).
 - **Feature List:** See code and paper; ensure you maintain order and normalization.
@@ -176,7 +179,7 @@ MIT License
 
 ## Acknowledgements
 
-* MazeSick Dataset (https://ieeexplore.ieee.org/abstract/document/10985746)
+* [MazeSick Dataset](https://ieeexplore.ieee.org/abstract/document/10985746)
 * CleverHans adversarial attack library
 * Unity Tunneling Vignette (based on Fernandes & Feiner, 2016)
 * HTC SRanipal, Tobii, and Unity XR SDKs
