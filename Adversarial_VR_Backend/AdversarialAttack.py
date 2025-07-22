@@ -11,13 +11,13 @@ app = Flask(__name__)
 
 # Confirm model format
 try:
-    with h5py.File('model/LSTM_Maze.keras', 'r') as f:
+    with h5py.File('model/Transformer.keras', 'r') as f:
         print("HDF5 format confirmed.")
 except:
     print("Not HDF5 format.")
 
 # Load Keras model
-model = tf.keras.models.load_model('model/LSTM_Maze.keras')
+model = tf.keras.models.load_model('model/Transformer.keras')
 print("[+] Model loaded successfully")
 
 EPSILON = 0.1  # Attack strength
