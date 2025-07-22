@@ -26,13 +26,13 @@
 
 ## Introduction
 
-Adversarial-VR enables real-time evaluation of VR cybersickness detection, mitigation, and robustness against adversarial input manipulation. The backend hosts a deep learning model (pre-trained on the MazeSick dataset), exposes a REST API for severity prediction, and supports four state-of-the-art adversarial attacks (MI-FGSM, PGD, C&W). The Unity frontend streams sensor data, receives predictions, and applies automatic visual mitigation (dynamic FOV/tunneling vignette).
+Adversarial-VR  is a real-time VR testbed for evaluating DL-based automatic cybersickness detection and mitigation strategies under adversarial attack conditions. The backend hosts a DL model which is trained on the [MazeSick Dataset](https://ieeexplore.ieee.org/abstract/document/10985746), exposes a REST API for severity prediction, and supports three state-of-the-art adversarial attacks (MI-FGSM, PGD, C&W). The Unity frontend streams VR sensor data (e.g., eye tracking and head tracking), receives cybersickness severity prediction (e.g., none, low, medium, and high), and applies an automatic cybersickness mitigation technique (e.g., dynamic field of view).
 
 ---
 
 ## System Overview
 
-- **Backend:** Python Flask server with a pre-trained .keras DL model for cybersickness severity classification. Supports adversarial perturbation of inputs.
+- **Backend:** Python Flask server with a trained .keras DL model for cybersickness severity classification. Supports adversarial perturbation of inputs.
 - **Frontend:** Unity VR maze simulation (PCVR/Android), real-time eye/head tracking, dynamic vignette mitigation based on backend prediction.
 - **Hardware:** HTC Vive Pro Eye (recommended for full feature support).
 - **Dataset:** Trained using MazeSick (open-source, see below).
@@ -42,7 +42,7 @@ Adversarial-VR enables real-time evaluation of VR cybersickness detection, mitig
 
 - **Model Training Data:** [MazeSick Dataset](https://ieeexplore.ieee.org/abstract/document/10985746).  
   Request access or see the publication for download instructions.
-- **Pre-trained Model:** Provided as `.keras` file (no training required).
+- **Trained Model:** Provided as `.keras` file (e.g, Transformer model).
 - **Feature List:** See code and paper; ensure you maintain order and normalization.
 
 ---
@@ -51,10 +51,10 @@ Adversarial-VR enables real-time evaluation of VR cybersickness detection, mitig
 
 ### Features
 
-- **REST API** `/predict`: Accepts a 41-feature vector (eye/head/gaze metrics) and returns cybersickness severity (None, Low, Medium, High) + confidence.
+- **REST API** `/predict`: Accepts feature vector (e.g., eye and head tracking features) and returns cybersickness severity (None, Low, Medium, High).
 - **Adversarial Modes:** Switchable attacks using [CleverHans](https://github.com/cleverhans-lab/cleverhans):
   - MI-FGSM, PGD, C&W (edit code to enable/disable each).
-- **Pre-trained Model:** Loads `.keras` model.
+- **Trained Model:** Loads `.keras` model.
 
 ### Setup
 
@@ -67,7 +67,7 @@ source venv/bin/activate          # or venv\Scripts\activate on Windows
 pip install -r requirements.txt   # includes Flask, TensorFlow, CleverHans, h5py
 
 # 3. Place your model file:
-# model/LSTM_Maze.keras
+# model/Transformer.keras
 
 # 4. Run Flask API
 python AdversarialAttack.py
@@ -101,7 +101,7 @@ Returns: predicted class, confidence, adversarial class/confidence (if enabled).
 ### Features
 
 * **Maze simulation** with coin collection, first-person movement.
-* **Real-time streaming** of eye/head/gaze data to Flask backend.
+* **Real-time streaming** of eye/head tracking data to Flask backend.
 * **Automatic mitigation:** Dynamic field-of-view ("tunneling vignette") that narrows FOV based on model's predicted severity.
 * **Visual indicators** for severity class, coin count, and vignette effect.
 
@@ -110,7 +110,7 @@ Returns: predicted class, confidence, adversarial class/confidence (if enabled).
 * **Unity 2020.3 LTS** or newer
 * **HTC Vive Pro Eye** (or compatible with eye/head tracking)
 * **SRanipal SDK** and **Tobii Vive SDK** imported to project
-* **Unity XR plugin** and (if needed) SteamVR/OpenVR
+* **Unity XR plugin**
 
 <!-- ### Android Build (if adapting for mobile):
 
