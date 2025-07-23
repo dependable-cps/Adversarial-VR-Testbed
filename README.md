@@ -181,7 +181,7 @@ MIT License
 
 * [MazeSick Dataset](https://ieeexplore.ieee.org/abstract/document/10985746)
 * CleverHans adversarial attack library
-* Unity Tunneling Vignette ([based on Fernandes & Feiner, 2016](https://ieeexplore.ieee.org/abstract/document/7460053)) 
+* Unity Tunneling Vignette 
 * HTC SRanipal, Tobii, and Unity XR SDKs
 
 ---
